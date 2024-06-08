@@ -1,4 +1,5 @@
 main = do
+    print (2 + 3 - (4 * (6 / 2))) -- Basic Math operations.
     -- Power, built in math functions
     print (3 ** 2)
     print (sqrt 36) -- Square root.
