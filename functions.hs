@@ -6,7 +6,7 @@ sayHi name age =
     putStrLn ("Hello " ++ name ++ "! You are " ++ show age ++ " years old.")
     
 main :: IO() -- Main function is an IO function.
-main = do -- do runs from top to bottom.
+main = do -- do runs from top to bottom. Use only when you want to put multiple things to console.
     putStr "What is your name? "
     name <- getLine
     putStr "How old are you? "
